@@ -9,7 +9,7 @@ rem Add changes to git.
 git add .
 
 rem Commit changes.
-git commit -m "Rebuilding doc-site"
+git commit -m "Rebuilding kuruhuru-site"
 
 rem Push source and build repos.
 git push origin master
