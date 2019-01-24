@@ -1,6 +1,6 @@
 ---
-author: admin
-date: 2018-11-10 00:28:38+00:00
+author: Petr Matyukov
+date: 2019-01-24
 draft: false
 title: About W3 Simple
 type: page
@@ -8,5 +8,5 @@ url: /about/
 ---
 
   
-  
-W3 Simple is a Hugo theme written by [Jesse Lau](https://jesselau.com/) . The main motivation for writing this theme was to provide a really minimal theme with W3 CSS included.
+![](https://kuruhuru.github.io/images/me.jpg)
+Стихи собственного сочинения представляет Пётр Матюков. Жизнь которого разделена между Нижним Тагилом и Новосибирском, между Уралом и Сибирью. Автор, конечно, печатался в различных толстых журналах, однако, он считает, что стихи существуют отдельно, сами по себе. Только читатель может их оценить лучше автора.
