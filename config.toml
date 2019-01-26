@@ -59,7 +59,7 @@ contentDir = "content/russian"
     url = "/about/"
     weight = 2
 [[languages.ru.menu.main]]
-    name = "По категории"
+    name = "По категориям"
     url = "/categories/"
     weight = 3
 [[languages.ru.menu.main]]
