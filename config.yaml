@@ -1,0 +1,75 @@
+baseURL: /
+languageCode: ru-ru
+defaultContentLanguage: ru
+title: Стихи и Рассказы
+theme: cupper-hugo-theme
+googleAnalytics: UA-123456789-1
+disqusShortname: kuruhuru
+enableGitInfo: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 99
+
+params:
+  description: Здесь вы найдете нескучные стихи и рассказы. 
+  homeMetaContent: Нескучные стихи и рассказы.
+  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  codePenUser: someUser
+  katex: true
+
+menu:
+  nav:
+    - name: Главная
+      url: /
+      weight: 1
+    - name: Блог
+      url: /post/
+      weight: 2
+    - name: Теги
+      url: /tags/
+      weight: 3
+    - name: Автор
+      url: /about/
+      weight: 4
+    # - name: RSS
+    #   url: /index.xml
+    #   weight: 5
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
