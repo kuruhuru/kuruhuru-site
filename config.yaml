@@ -30,9 +30,9 @@ menu:
     - name: Главная
       url: /
       weight: 1
-    # - name: Блог
-    #   url: /post/
-    #   weight: 2
+    - name: Рассказы
+      url: /post/рассказы/
+      weight: 2
     - name: Публикации
       url: /post/publications/
       weight: 3
