@@ -1024,13 +1024,3 @@ h1 svg {
       background: none;
   }
 }
-
-::-moz-selection { /* Code for Firefox */
-    background: rgba(0,0,0,.8);
-    color: #fefefe;
-}
-  
-::selection {
-  background: rgba(0,0,0,.8);
-  color: #fefefe;
-}
